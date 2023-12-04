@@ -337,7 +337,7 @@ function Body({ token, userData, isLoggedIn }) {
             <div className="more">
                 <div className="more_title">Otin Store - Không lo đồ cũ</div>
                 <div className="more_video">
-                    <ReactPlayer
+                    {/* <ReactPlayer
                         url="https://drive.google.com/file/d/1bzkhKQefpLxu9uTCHixi6e3XrmZ_e8HC/view?usp=sharing"
                         width="1100px"
                         height="620px"
@@ -346,7 +346,8 @@ function Body({ token, userData, isLoggedIn }) {
                         loop
                         playing={true}
                         muted
-                    />
+                    /> */}
+                    
                 </div>
             </div>
             <div className="lopphu_body" id="lopphu_body"></div>

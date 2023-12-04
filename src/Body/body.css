@@ -336,7 +336,7 @@
 /* more */
 .more {
     width: 1100px;
-    min-height: 500px;
+    min-height: 600px;
     position: relative;
     margin-top: 170px;
     border-radius: 10px;
@@ -452,7 +452,16 @@
 .upload_box_select_input:focus {
     border: 1px solid #4884ea;
 }
-
+.more_video {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+    background: url('./../ss.png');
+    background-position: center;
+    background-size: cover;
+}
 .btn_upload {
     padding: 10px 30px;
     background-color: #3c4c6c;
