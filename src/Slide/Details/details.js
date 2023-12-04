@@ -40,7 +40,7 @@ function Details({token, userData, isLoggedIn}) {
             <div className="trade_successfull" id="trade_successfull">Yêu cầu của bạn đã được gửi đi <i class="fa-solid fa-face-smile-wink left"></i></div>
             <div className='trade' id='trade'>
                <div className="trade_cointainer" id="trade_cointainer">
-                    <div className='trade_title'>Trao đổi đồ Otin</div>
+                    <div className='trade_title'>Trao đổi đồ O-Trade</div>
                     <div className='trade_box'>
                     <div className='trade_box_title'>Túi đồ của bạn<p>(Chọn một món đồ mà bạn muốn trao đổi)</p></div>
                     <div className='trade_box_cointainer'>
@@ -82,7 +82,7 @@ function Details({token, userData, isLoggedIn}) {
                         
                     </div>
                     </div>
-                    <div className="trade_time">Khoảng thời gian: <input type="number" placeholder="24"></input>Giờ</div>
+                    <div className="trade_time">Thời hạn đề xuất trao đổi: <input type="number" placeholder="24"></input>Giờ</div>
                     <button className='trade_btn' id="trade_btn">Submit</button>
                </div>
                

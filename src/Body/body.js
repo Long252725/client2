@@ -235,28 +235,31 @@ function Body({ token, userData, isLoggedIn }) {
                             <div className="bocloc_adress--title font_normal ">Nơi bán</div>
                             <ul className="list">
                                 <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Nghệ An</li>
-                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Nghệ An</li>
-                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Nghệ An</li>
-                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Nghệ An</li>
-                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Nghệ An</li>
-                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Nghệ An</li>
-                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Nghệ An</li>
+                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Hà Tĩnh</li>
+                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Hà Nội</li>
+                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>TP Hồ CHí Minh</li>
+                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Bình Dương</li>
+                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Quảng Ninh</li>
+                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Hải Dương</li>
+                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Cần Thơ</li>
+                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Phú Thọ</li>
+                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Nước Ngoài</li>
                                 
                             </ul>
                         </div>
                         <div className="bocloc_type">
                             <div className="bocloc_type--title font_normal ">Doanh mục</div>
                             <ul className="list">
-                            <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Nghệ An</li>
-                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Nghệ An</li>
-                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Nghệ An</li>
-                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Nghệ An</li>
-                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Nghệ An</li>
-                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Nghệ An</li>
-                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Nghệ An</li>
-                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Nghệ An</li>
-                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Nghệ An</li>
-                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Nghệ An</li>
+                            <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Đồ Công Nghệ</li>
+                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Váy, đầm</li>
+                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Áo Quần</li>
+                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Dụng cụ học tập</li>
+                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Đồ Chơi</li>
+                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Máy tính</li>
+                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Điện thoại</li>
+                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Xe máy</li>
+                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Máy ảnh</li>
+                                <li className="selecter"><i class="fa-solid fa-circle left" style={{fontSize: `${6}px`}}></i>Xe hơi</li>
                             </ul>
                         </div>
                     </div>
@@ -335,7 +338,7 @@ function Body({ token, userData, isLoggedIn }) {
                 <div className="more_title">Otin Store - Không lo đồ cũ</div>
                 <div className="more_video">
                     <ReactPlayer
-                        url="https://assets-global.website-files.com/63ba8e823d3d7a927e5c2971/63baa96818d4e0e50d349d2b_shiny-bull-in-costume-made-of-mirrors-dancing-robo-2021-08-30-14-52-45-utc%20(1)-transcode.mp4"
+                        url="https://drive.google.com/file/d/1bzkhKQefpLxu9uTCHixi6e3XrmZ_e8HC/view?usp=sharing"
                         width="1100px"
                         height="620px"
                         position="absolute"

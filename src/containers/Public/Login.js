@@ -288,7 +288,7 @@ const Login = () => {
               <div className="toggle-container">
                 <div className="toggle">
                   <div className="toggle-panel toggle-left">
-                    <div className="title_login">Welcome Back!</div>
+                    <div className="title_login">Otin chào bạn !</div>
                     <p>
                       Đăng ký với thông tin cá nhân của bạn để sử dụng tất cả
                       các tính năng của trang web
@@ -298,7 +298,7 @@ const Login = () => {
                     </button>
                   </div>
                   <div className="toggle-panel toggle-right">
-                    <div className="title_login">Hello, Friend!</div>
+                    <div className="title_login">Chào mừng trở lại bạn !</div>
                     <p>
                       Đăng ký với thông tin cá nhân của bạn để sử dụng tất cả
                       các tính năng của trang web

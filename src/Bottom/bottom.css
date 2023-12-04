@@ -17,8 +17,9 @@
     width: 500px;
     position: absolute;
     top: 30px;
-    left: 40px;
-    font-size: 20px;
+    left: 90px;
+    font-size: 22px;
+    font-weight: 700;
 }
 .bottom_pic {
         background: url('https://scontent.xx.fbcdn.net/v/t1.15752-9/398298547_861035222099430_8403916923043358465_n.png?_nc_cat=104&ccb=1-7&_nc_sid=510075&_nc_ohc=s3nrFJdX9HYAX9Xg7r2&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQsacl_xHRC-8KTi2mp6kD4LE3ZBTwGHIU-m6fA2nyPDA&oe=656F31E6');
@@ -29,6 +30,15 @@
     height: 90px;
     position: absolute;
     top: 80px;
-    left: 50px;
+    left: 100px;
 
+    }
+    .bottom_content, .bottom_content2 {
+        position: absolute;
+        left: 400px;
+        color: white;
+        top: 40px;
+    }
+    .bottom_content2 {
+        left: 720px;
     }
