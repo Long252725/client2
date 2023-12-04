@@ -1,0 +1,71 @@
+.setting-payment_cointainer {
+    position: absolute;
+    /* background-color: red; */
+    z-index: 14;
+    left: 10%;
+    margin-left: 240px;
+    top: 150px;
+    height: 500px;
+    width: 840px;
+}
+.setting-payment_top {
+    height: 80px;
+    /* background-color: red; */
+    border-bottom: 1px solid #517da9;
+}
+.setting-payment_top_btn {
+    padding: 10px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ee4d2d;
+    color: white;
+    width: 270px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    z-index: 14;
+
+}
+.setting-payment_top_btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.setting-payment_top_title{
+    position: absolute;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    /* background-color: red; */
+    width: 300px;
+    margin: 25px 0 0 20px;
+    font-weight: 700;
+    color: #263b50;
+}
+.setting-payment_alert {
+    position: absolute;
+    left: 35%;
+    top: 230px;
+
+}
+.setting-payment_box {
+    top: 100px;
+    left: 27%;
+    position: fixed;
+    width: 620px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 0 5px;
+    z-index: 16;
+    border-radius: 2px;
+    display: none;
+
+}
+.setting-payment_lopphu {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 4, 4, 0.478);
+    z-index: 16;
+    display: none;
+}

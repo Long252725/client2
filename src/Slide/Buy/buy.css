@@ -1,0 +1,168 @@
+.buy_cointainer {
+    display: flex;
+    justify-content: center;
+}
+.buy_cointainer_box {
+    position: relative;
+    top: 150px;
+    padding-bottom: 10px;
+    width: 1100px;
+    padding-bottom: 100px;
+    /* background-color: white; */
+    /* z-index: 10; */
+    border-radius: 20px;
+
+}
+.buy_cointainer_box_type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+    background-color: #dcedff;   
+    /* height: 60px; */
+    /* background-color: red; */
+
+}
+.buy_cointainer_box--title {
+    width: 400px;
+    /* margin: 0 40px; */
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 18px;
+    color: #182b3e;
+    background-color: yellow; 
+    position: relative;
+    padding: 10px 30px;
+    /* border-radius: 10px; */
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-right: 1px solid gray;
+}
+.buy_cointainer_box--title:hover {
+    /* background-color: #dcedff; */
+    color: #ee4d2d;
+    /* border: 1px solid #ee4d2d; */
+    /* background-color: #ffe0da; */
+}
+.buy_cointainer_box_sp {
+    /* z-index: -1; */
+    border: 2px solid #517da9;
+    background-color: white;
+    width: 98%;
+    /* position: relative; */
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.buy_cointainer_box_sp_select {
+    width: 100%;
+    height: 100px;
+    /* background-color: blue; */
+    /* margin-bottom: 5px; */
+    border-bottom: 2px solid #517da9;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.buy_cointainer_box_sp_select:hover {
+    background-color: #dcedff;
+}
+.buy_cointainer_box_sp_taskbar {
+    width: 100%;
+    height: 40px;
+    background-color: #517da9;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.buy_cointainer_box_sp_taskbar--name,
+.buy_cointainer_box_sp_taskbar--price,
+.buy_cointainer_box_sp_taskbar--time,
+.buy_cointainer_box_sp_taskbar--state,
+.buy_cointainer_box_sp_taskbar--details {
+    border-right: 1px solid #dcedff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buy_cointainer_box_sp_taskbar--name {
+    width: 450px;
+}
+.buy_cointainer_box_sp_taskbar--price {
+    width: 180px;
+}
+.buy_cointainer_box_sp_taskbar--time {
+    width: 160px;
+}
+.buy_cointainer_box_sp_taskbar--state {
+    width: 150px;
+}
+.buy_cointainer_box_sp_taskbar--details {
+    width: 155px;
+    border-right: 1px solid #517da9;
+}
+.buy_cointainer_box_sp_select--price,
+.buy_cointainer_box_sp_select--time,
+.buy_cointainer_box_sp_select--state,
+.buy_cointainer_box_sp_select--details {
+    height: 100%;
+    border-left: 1px solid #517da9;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buy_cointainer_box_sp_select--box {
+    width: 440px;
+    height: 100%;
+    border-right: 1px solid #517da9;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buy_cointainer_box_sp_select--price {
+    width: 180px;
+    left: 440px;
+}
+.buy_cointainer_box_sp_select--time {
+    width: 160px;
+    left: 618px;
+}
+.buy_cointainer_box_sp_select--state {
+    width: 150px;
+    left: 775px;
+    color: rgb(50, 118, 39);
+
+    box-sizing: border-box;
+    
+
+}
+.buy_cointainer_box_sp_select--details {
+    width: 155px;
+    left: 925px;
+}
+.state-green {
+    padding: 7px;
+    background-color: rgb(76, 189, 76);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.state-red {
+    padding: 7px 25px;
+    background-color: #ee4d2d;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+

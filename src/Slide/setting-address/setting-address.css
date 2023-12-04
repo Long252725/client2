@@ -1,0 +1,173 @@
+.setting-address_cointainer {
+    position: absolute;
+    /* background-color: red; */
+    z-index: 14;
+    left: 10%;
+    margin-left: 240px;
+    top: 150px;
+    height: 500px;
+    width: 840px;
+}
+.setting-address_top {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    /* background-color: blue; */
+    border-bottom: 1px solid #517da9;
+}
+.setting-address_top {
+    height: 80px;
+    /* background-color: red; */
+    border-bottom: 1px solid #517da9;
+}
+.setting-address_top_btn {
+    padding: 10px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ee4d2d;
+    color: white;
+    width: 200px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    z-index: 14;
+
+}
+.setting-address_top_btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.setting-address_top_title{
+    position: absolute;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    /* background-color: red; */
+    width: 300px;
+    margin: 25px 0 0 20px;
+    font-weight: 700;
+    color: #263b50;
+}
+.setting-address_alert {
+    position: absolute;
+    left: 35%;
+    top: 230px;
+
+}
+.setting-address_box {
+    top: 30px;
+    left: 29%;
+    position: fixed;
+    width: 540px;
+    height: 520px;
+    background-color: white;
+    box-shadow: 0 0 5px;
+    z-index: 16;
+    border-radius: 2px;
+    display: none;
+    padding: 20px;
+
+}
+.setting-address_lopphu {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 4, 4, 0.478);
+    z-index: 16;
+    display: none;
+}
+.setting-address_box_title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #263b50;
+    margin-top: 10px;
+}
+.setting-address_box_name {
+    border: 1px solid rgb(175, 175, 175);
+    position: absolute;
+    top: 90px;
+    width: 230px;
+    height: 35px;
+    padding-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    outline: none;
+}
+.setting-address_box_sdt {
+    border: 1px solid rgb(175, 175, 175);
+    position: absolute;
+    top: 90px;
+    padding-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    outline: none;
+    width: 240px;
+    height: 35px;
+    left: 280px;
+}
+.setting-address_box_address {
+    position: absolute;
+    top: 150px;
+    width: 500px;
+    height: 20px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid rgb(175, 175, 175);
+}
+.setting-address_box_type {
+    position: absolute;
+    top: 280px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    /* background-color: red; */
+}
+.setting-address_box_save {
+    position: absolute;
+    bottom: 30px;
+    padding: 10px 40px;
+    right: 30px;
+    background-color: #ee4d2d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.setting-address_box_save:hover {
+    opacity: 0.9;
+}
+.setting-address_box_type {
+    /* background-color: red; */
+    width: 300px;
+    height: 140px;
+}
+.setting-address_box_type_select {
+    position: absolute;
+    left: 0px;
+    top: 35px;
+    width: 150px;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 7px 13px;
+    background-color: white;
+    cursor: pointer;
+}
+.setting-address_box_type_select:hover {
+    color: #ee4d2d;
+    border: 1px solid #ee4d2d;
+}
+.setting-address_box_type_select--2 {
+    top: 80px;
+}
+.setting-address_box_type_notice {
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    top: 460px;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,392 @@
+.header {
+    position: absolute;
+    top: 0;
+    height: 90px;
+    width: 100%;
+    background-color: #29354e;
+    box-shadow: 0 0 5px #3c4c6c;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    z-index: 15;
+}
+a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 10;
+}
+/* .box_logo {
+    background-color: #29354e;
+    z-index: 10;
+} */
+.to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    /* background-color: red; */
+    color: #517da9;
+    cursor: pointer;
+}
+.header_pic {
+    width: 60px;
+    height: 60px;
+    /* background: url('https://scontent.xx.fbcdn.net/v/t1.15752-9/398298547_861035222099430_8403916923043358465_n.png?_nc_cat=104&ccb=1-7&_nc_sid=510075&_nc_ohc=s3nrFJdX9HYAX9Xg7r2&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQsacl_xHRC-8KTi2mp6kD4LE3ZBTwGHIU-m6fA2nyPDA&oe=656F31E6'); */
+    background: url('https://scontent.xx.fbcdn.net/v/t1.15752-9/394517794_6954486771313240_3684609075480503755_n.png?stp=dst-png_p403x403&_nc_cat=101&ccb=1-7&_nc_sid=510075&_nc_ohc=bCY_Gwui7akAX9DDriT&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQUlrIj2H59_hp-RG-S3i-ByiGQW8zRM2Upiie7I5k29A&oe=6561D2C6');
+    background-position: center;
+    background-size: 110%;
+    /* background-size: cover; */
+    position: absolute;
+    left: 150px;
+    border-radius: 100%;
+    top: 12px;
+    /* display: none;    */
+}
+.header_pic_name {
+    width: 100px;
+    height: 50px;
+    background: url('https://scontent.xx.fbcdn.net/v/t1.15752-9/398424851_6493837874072109_5349977250511338468_n.png?_nc_cat=103&ccb=1-7&_nc_sid=510075&_nc_ohc=NI97wezHYv8AX93FaeO&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSL6C7JXpEQZsO30cDVUXJPw7G0NIatMfbIRDp5zp9tWw&oe=656F34C8');
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    border-radius: 10px;
+    left: 220px;
+}
+#search {
+    width: 400px;
+    height: 35px;
+    left: 300px;
+    position: relative;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 18px;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    border: 1px solid #6d6e6f;
+    z-index: 9;
+}
+.search-icon {
+    left: 830px;
+    position: absolute;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #3c4c6c;
+    color: white;
+}
+
+.search-icon:hover,
+.alert-icon:hover {
+    transform: scale(0.97);
+}
+#search:focus {
+    border: 1px solid #517da9;
+    /* box-shadow: 0 0 10px 1px #517da9; */
+}
+.iconSearch {
+    position: absolute;
+    color: #6d6e6f;
+    left: 580px;
+    z-index: 1;
+    cursor: pointer;
+}
+.iconSearch:hover {
+    color: #517da9;
+}
+#accountBox {
+    color: white;
+    position: absolute;
+    /* background-color: red;   */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 240px;
+    left: 1075px;
+    font-weight: 500;
+    z-index: 9;
+}
+.aOfheader {
+    color: white;
+}
+.accountBox_sl {
+    border-radius: 10px;
+    /* border: 1px solid #6d6e6f; */
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: #517da9;
+    transition: all 0.1s;
+}
+.accountBox_sl:hover {
+    transform: scale(0.98);
+}
+/* menu */
+.menu {
+    background-color: #f24320;
+}
+.menu_choice {
+    z-index: 12;
+    position: fixed;
+    width: 320px;
+    top: 0;
+    bottom: 0;
+    background-color: white;
+    right: 0;
+    border-radius: 10px 0 0 10px;
+    border-left: 3px solid #517da9;
+    display: none;
+}
+.menu_choice_account {
+    position: absolute;
+    left: 20px;
+    width: 280px;
+    height: 80px;
+    background-color: #eaf4ff;
+    border: 2px solid #6ba3dc;
+    top: 20px;
+    border-radius: 10px;
+}
+.menu_choice_account--pic {
+    position: absolute;
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: url('https://thcsgiangvo-hn.edu.vn/wp-content/uploads/2023/09/avatar-vo-danh-16.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.menu_choice_account--name {
+    /* background-color: blue; */
+    width: 180px;
+    position: absolute;
+    left: 90px;
+    top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3c4c6c;
+    cursor: pointer;
+    display: flex;
+    align-items: baseline;
+}
+.menu_choice_account--money {
+    font-weight: 700;
+    position: absolute;
+    font-family: inherit;
+    top: 45px;
+    left: 92px;
+    font-size: 13px;
+    color: #4884ea;
+    cursor: pointer;
+    /* background-color: red; */
+}
+.lopphu {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: rgba(4, 4, 4, 0.478);
+    display: none;
+}
+.iconmenu {
+    color: white;
+    margin-right: 10px;
+}
+.menu_choice_cointainer {
+    left: 20px;
+
+    position: absolute;
+    width: 282px;
+    height: 450px;
+    /* max-height: 450px; */
+    top: 130px;
+    border-radius: 10px;
+    background-color: #eaf4ff;
+    border: 2px solid #6ba3dc;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 3px;
+    box-sizing: border-box;
+}
+.menu_choice_cointainer_select {
+    width: 270px;
+    height: 39px;
+    border-radius: 10px;
+    background-color: #eaf4ff;
+    border-bottom: 2px solid #6ba3dc;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: #3c4c6c;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+.menu_choice_cointainer--logout {
+    border: none;
+    border-bottom: 2px solid #6ba3dc;
+}
+.left {
+    margin-right: 10px;
+}
+.menu_choice_cointainer_select:hover {
+    transform: scale(0.98);
+    color: #ff5722;
+    background-color: #ffede6fb;
+    border-bottom: 2px solid #ff5722;
+}
+.menu_choice_cointainer_contact {
+    width: 280px;
+    height: 160px;
+    /* background-color: #6ba3dc; */
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+.menu_choice_cointainer_contact_select--title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3c4c6c;
+    /* background-color: red; */
+    position: relative;
+    padding: 10px;
+    top: 3px;
+    left: 10px;
+    font-size: 16px;
+    color: #3c4c6c;
+    font-weight: 700;
+}
+.menu_choice_cointainer_contact_select--face,
+.menu_choice_cointainer_contact_select--x {
+    font-size: 18px;
+    color: #3c4c6c;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.menu_choice_cointainer_contact_select--face:hover,
+.menu_choice_cointainer_contact_select--x:hover {
+    color: rgb(45, 150, 255);
+}
+/* alert */
+.boxAlert {
+    position: absolute;
+    width: 310px;
+    height: 10px;
+    /* background-color: red; */
+    font-family: inherit;
+    left: 940px;
+    top: 25px;
+}
+.alert-icon, .mess-icon {
+    padding: 11px;
+    color: white;
+    font-size: 17px;
+    border-radius: 100%;
+    background-color: #517da9;
+    position: absolute;
+    cursor: pointer;
+    z-index: 9;
+    left: 80px;
+
+}
+.mess-icon {
+    left:960px;
+}
+.boxAlert_header {
+    font-size: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-weight: 600;
+    position: relative;
+    top:0;
+    height: 35px;
+    background-color: #3c4c6c;
+    border-radius: 10px 10px 0 0;
+    /* border-bottom: 1px solid black; */
+    display: flex;
+    align-items: center;
+    color: white;
+    box-shadow: 0 0 4px gray;
+
+
+    
+}
+.boxAlert_container {
+    position: absolute;
+    top: 45px;
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: none;
+}
+.boxAlert_body {
+    box-shadow: 0 0 4px gray;
+    background-color: #eaf4ff;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 10px 10px ;
+    overflow-y: auto;
+}
+.boxAlert_select {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    /* background-color: red; */
+    border-bottom: 1px solid white;
+}
+.boxAlert_select:hover {
+    background-color: white;
+    cursor: pointer;
+}
+.boxAlert_body::-webkit-scrollbar {
+    width: 1px;
+    border-radius: 10px;
+    background-color: #eaf4ff;
+}
+.boxAlert_select--pic {
+    width: 45px;
+    height: 45px;
+    background: url('https://scontent.xx.fbcdn.net/v/t1.15752-9/396115387_818307346963612_2054944215498436842_n.jpg?stp=dst-jpg_s280x280&_nc_cat=103&ccb=1-7&_nc_sid=510075&_nc_ohc=t4wpJxFBwcUAX8wz4E7&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRyyNr20vx2pgp3wfpj9itZzLXHk_fXokS8U9jWcGOkgg&oe=656F400C');
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    position: absolute;
+    margin: 9px;
+    }
+.boxAlert_select--title {
+    width: 230px;
+    height: 50px;
+    /* background-color: yellow; */
+    position: absolute;
+    left: 65px;
+    top: 5px;
+    overflow: hidden;
+    font-size: 13px;
+    font-family: inherit;
+    color: #29354e;
+    font-weight: 600;
+}
+.boxAlert_select--time {
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    color: #6d6e6f;
+    position: absolute;
+    bottom: 2px;
+    left: 65px;
+}

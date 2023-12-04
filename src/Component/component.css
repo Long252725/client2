@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f3f6fa;
+    overflow: auto;
+    
+}
+html {
+    font-family: Poppins, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'segoe ui', Roboto,
+        'helvetica neue', Arial, 'noto sans', sans-serif, 'apple color emoji', 'segoe ui emoji', 'segoe ui symbol',
+        'noto color emoji';
+        scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+color: white;
+}
+.font_big {
+    font-size: 20px;
+    font-weight: 600;
+    color: #517da9;
+}
+.font_normal {
+    font-size: 15px;
+    font-weight: 600;
+    color: #517da9;
+}
+body::-webkit-scrollbar {
+    width: 5px;
+    height: 0px;
+}
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #517da9;
+}
+.left-5 {
+    margin-right: 5px;
+}

@@ -1,0 +1,697 @@
+#body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 13;
+}
+.qc {
+    position: absolute;
+    width: 100px;
+    left: 0;
+    height: 1000px;
+    background: url('https://img.pikbest.com/01/76/04/54gpIkbEsTY46.jpg!w700wp');
+}
+.cointainer {
+    position: relative;
+    top: 150px;
+    min-height: 500px;
+    max-height: 2000px;
+    width: 1100px;
+    padding-bottom: 0;
+    background-color: white;
+    z-index: -1;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#box_product {
+    position: relative;
+
+    width: 670px;
+    left: 230px;
+
+    top: 0;
+    padding: 10px;
+
+    border-radius: 10px;
+}
+#product {
+    border: 2px solid #517da9;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#product:hover {
+    background-color: #b5c8d818;
+}
+#product_name {
+    position: relative;
+    left: 30px;
+    top: 15px;
+    max-width: 500px;
+
+    font-size: 24px;
+    font-weight: 600;
+    color: #517da9;
+}
+#product_pic {
+    position: relative;
+    background: url('https://cdn.appliancepartspros.com/images/product/cache/frigidaire-pure-source-3-wf3cb-ap4567491_01_sm.jpg ');
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    margin-top: 35px;
+    margin-left: 25px;
+    border-radius: 10px;
+    border: 1px solid #517da9;
+}
+#content {
+    position: relative;
+    left: 25px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#noidungchitiet {
+    left: 25px;
+    width: 550px;
+    font-size: 15px;
+    position: relative;
+    margin-top: 10px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+#price {
+    position: absolute;
+    left: 340px;
+    top: 30%;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: baseline;
+}
+#price_price {
+    margin-left: 10px;
+    color: #ee4d2d;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#btn_buy {
+    top: 47%;
+    width: 150px;
+    background-color: #ee4d2d;
+    height: 40px;
+    border: none;
+    left: 360px;
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#btn_buy:hover {
+    background: #ffe3dafb;
+    border: 1px solid #ff5722;
+    color: #f24320;
+}
+#btn_trade:hover {
+    background: #d8ebff;
+    border: 1px solid #517da9;
+    color: #517da9;
+}
+
+#btn_trade {
+    top: 60%;
+    width: 150px;
+    background-color: #517da9;
+    height: 40px;
+    border: none;
+    left: 360px;
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.box_search {
+    background-color: #ffede6fb;
+    border: 2px solid #ff5722;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    top: 10px;
+    margin: 2px;
+    border-radius: 10px;
+}
+.box_search_title {
+    padding: 10px 0px;
+
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff5722;
+    cursor: pointer;
+}
+.box_search_input {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 14px;
+    width: 115px;
+    outline: none;
+
+    font-family: 500;
+    padding-right: 50px;
+    border: 1px solid #ff5722;
+    border-radius: 5px;
+    z-index: 1;
+}
+.box_search_icon {
+    z-index: 100000;
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    color: #ff5722;
+    cursor: pointer;
+}
+.box_search_icon:hover {
+    opacity: 0.5;
+}
+/* taskbar_body */
+.taskbar_body {
+    position: absolute;
+    width: 210px;
+    height: 500px;
+    margin-left: 12px;
+}
+
+.boloc {
+    padding-bottom: 10px;
+    position: relative;
+    margin-top: 30px;
+    background-color: #dcedff;
+
+    border: 2px solid #517da9;
+    border-radius: 10px;
+}
+.boloc_title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 15px 0;
+}
+
+.bocloc_adress--title,
+.bocloc_type--title {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.bocloc_adress,
+.boloc_type {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #517da9;
+    border-top: 1px solid #517da9;
+}
+.list {
+    color: #263b50;
+    cursor: pointer;
+    padding-left: 20px;
+    box-sizing: border-box;
+    /* background-color: red; */
+    margin-top: 5px;
+    height: 145px;
+    overflow: auto;
+    width: 190px;
+    font-weight: 600;
+    font-size: 14px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+}
+.list::-webkit-scrollbar {
+    width: 5px;
+    background-color: #517da9;
+    border-radius: 10px;
+}
+.selecter {
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.selecter:hover {
+    transform: scale(0.98);
+}
+.product_save {
+    position: absolute;
+    top: 0;
+    left: 580px;
+    color: #517da9;
+
+    font-size: 40px;
+}
+.product_save:hover {
+    color: #ee4d2d;
+}
+
+/* listproduct */
+.listproduct {
+    position: absolute;
+    width: 180px;
+    max-height: 540px;
+    right: 10px;
+    top: 10px;
+    background-color: #dcedff;
+
+    border-radius: 10px 0 0 10px;
+    border: 2px solid #517da9;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+
+}
+.sticky2 {
+    position: absolute;
+    bottom: 130px;
+}
+.listproduct::-webkit-scrollbar {
+    width: 5px;
+    background-color: #dcedff;
+    border-radius: 50px;
+    height: 100px;
+}
+.listproduct::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+
+    background-color: #517da9;
+}
+.listproduct_title {
+    font-weight: 700;
+    color: #ee4d2d;
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+    border: 1px solid #ee4d2d;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffe3dafb;
+    padding: 5px 0px;
+}
+.listproduct_like {
+    width: 135;
+
+    margin: 20px 10px 20px 10px;
+    position: relative;
+}
+#listproduct_like_select {
+    position: relative;
+
+    border-radius: 5px;
+    padding: 7px 10px;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-size: 16px;
+
+    overflow: hidden;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+#listproduct_like_select:hover {
+    transform: scale(0.99);
+
+    background-color: #fff5f1;
+}
+#aaa {
+    color: red;
+}
+
+/* more */
+.more {
+    width: 1100px;
+    min-height: 500px;
+    position: relative;
+    margin-top: 170px;
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 40px;
+}
+.more_title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 20px;
+    color: #263b50;
+}
+
+.next-sp {
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: #d8ebff;
+    border: 2px solid #517da9;
+}
+.next-sp:hover {
+    cursor: pointer;
+    transform: scale(0.97);
+}
+/* dăng bai */
+.upload {
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 120px;
+    background-color: #517da9;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 9;
+}
+.upload_box {
+    position: fixed;
+    width: 70%;
+    height: 500px;
+    background-color: white;
+    top: 50px;
+    left: 200px;
+    border-radius: 10px;
+    z-index: 18;
+    display: none;
+}
+.lopphu_body,
+.lopphu_body2 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 4, 4, 0.834);
+    z-index: 16;
+    display: none;
+}
+.lopphu_body2 {
+    background-color: #747a82c7;
+}
+
+.upload_box_title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #29354e;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+.upload_box_select {
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.upload_box_cointainer {
+    border-radius: 10px;
+    border: 2px solid #29354e;
+    position: relative;
+    top: 100px;
+    height: 300px;
+    width: 80%;
+    left: 100px;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+.upload_box_select_input {
+    position: absolute;
+    left: 250px;
+    outline: none;
+    width: 300px;
+    height: 28px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.upload_box_select_input:focus {
+    border: 1px solid #4884ea;
+}
+
+.btn_upload {
+    padding: 10px 30px;
+    background-color: #3c4c6c;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    right: 50px;
+    border-radius: 10px;
+    bottom: 20px;
+}
+.btn_upload:hover {
+    cursor: pointer;
+    background-color: #fff5f1;
+    border: 1px solid #f24320;
+    color: #f24320;
+}
+.upload_box_done {
+    border-radius: 10px;
+    border: 2px solid #29354e;
+    position: absolute;
+    top: 100px;
+    height: 300px;
+    width: 80%;
+    left: 100px;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upload_box_done_title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+    background-color: #4884ea;
+    border-radius: 30px;
+}
+#upload_box_done {
+    display: none;
+}
+/* tt */
+.product_box_tt {
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    width: 620px;
+    height: 40px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.product_box_tt_select {
+    padding: 3px;
+
+    border-radius: 10px;
+    width: 160px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    color: #747a82;
+    line-height: 1.3333;
+}
+.product_box_tt_select:hover {
+    background-color: #ededed;
+    cursor: pointer;
+}
+.product_comment {
+    margin: 0 30px;
+}
+/* comment */
+.boxcomment {
+    position: fixed;
+    width: 700px;
+    height: 550px;
+    background-color: white;
+    z-index: 17;
+    top: 40px;
+    font-family: inherit;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(88, 88, 88);
+    display: none;
+}
+.boxcomment_taskbar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 -2px 2px #9ea1a5;
+    border-radius: 0 0 10px 10px;
+}
+.boxcomment_taskbar_pic {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 15px;
+    top: 10px;
+    border-radius: 100%;
+    background: url('https://scontent.xx.fbcdn.net/v/t1.15752-9/396115387_818307346963612_2054944215498436842_n.jpg?stp=dst-jpg_s280x280&_nc_cat=103&ccb=1-7&_nc_sid=510075&_nc_ohc=t4wpJxFBwcUAX8wz4E7&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRyyNr20vx2pgp3wfpj9itZzLXHk_fXokS8U9jWcGOkgg&oe=656F400C');
+    background-position: center;
+    background-size: cover;
+}
+.boxcomment_taskbar_input {
+    position: absolute;
+    left: 80px;
+    top: 10px;
+    background-color: #d8ebff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 600px;
+    height: 80px;
+}
+.iconSend {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    font-size: 20px;
+    color: #4884ea;
+    padding: 10px;
+    border-radius: 100%;
+}
+.iconSend:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.boxcomment_taskbar_input--input {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    width: 520px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0 30px 10px;
+    font-family: inherit;
+    font-size: 17px;
+}
+.boxcomment_top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: large;
+    font-weight: 700;
+    font-family: inherit;
+    color: #3c4c6c;
+}
+.boxcomment_comments {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+
+    left: 20px;
+    top: 60px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.boxcomment_comments::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 10px;
+}
+.boxcomment_comments::-webkit-scrollbar-thumb {
+    background-color: #517da9;
+    border-radius: 10px;
+}
+.boxcomment_comments_select {
+    max-width: 583px;
+    min-height: 50px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    position: relative;
+}
+.boxcomment_comments_select--pic {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: url('https://scontent.xx.fbcdn.net/v/t1.15752-9/396115387_818307346963612_2054944215498436842_n.jpg?stp=dst-jpg_s280x280&_nc_cat=103&ccb=1-7&_nc_sid=510075&_nc_ohc=t4wpJxFBwcUAX8wz4E7&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRyyNr20vx2pgp3wfpj9itZzLXHk_fXokS8U9jWcGOkgg&oe=656F400C');
+    background-position: center;
+    background-size: cover;
+    left: 15px;
+    top: 10px;
+}
+.boxcomment_comments_select--box {
+    position: relative;
+    background-color: #f0f2f5;
+    max-width: 500px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    left: 60px;
+    padding-right: 20px;
+}
+.boxcomment_comments_select--name {
+    font-family: inherit;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+    font-size: 14px;
+    top: 5px;
+    max-width: 200px;
+}
+.boxcomment_comments_select--nd {
+    position: relative;
+    left: 10px;
+    margin-top: 10px;
+    color: #050505;
+    font-size: 15px;
+    line-height: 19.9995px;
+    padding: 0 10px;
+    max-width: 450px;
+}
+.delete_comment {
+    position: absolute;
+    right: 10px;
+    padding: 0 10px;
+    top: 20px;
+    border: none;
+    top: 25px;
+    font-weight: 600;
+    color: #3c4c6c;
+    cursor: pointer;
+}
